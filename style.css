@@ -169,7 +169,7 @@ body {
       border-bottom: 0;
     }
     
-    .auth-image {
+    .responsive {
       float: left;
       width: 200px;
       height: auto;
@@ -218,7 +218,9 @@ body {
     }
 
     @media screen and (max-width:980px) {
-
+      body {
+        width: 960px;
+      }
     }
 
     @media screen and (max-width:768px) {
@@ -227,14 +229,26 @@ body {
 
     @media screen and (max-width:640px) {
       body {
-        position: static;
         width: 600px;
-        background-color: lightblue;
+        margin-right: 10px;
       }
 
       .responsive {
-        max-width:100%;
-        height: auto;
-        
+        width: 100%;
+        max-width: 500px;
+        height:auto;
+        margin-bottom: 20px;
       }
+
+      h1 {
+        margin-top: -10px;
+      }
+
+      nav {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      }
+      
     }

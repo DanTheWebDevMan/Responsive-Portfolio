@@ -66,7 +66,6 @@ body {
     
     #logo {
       float: left;
-      width: 250px;
       height: 90px;
       font-family: Georgia, Times, "Times New Roman", serif;
       font-size: 30px;
@@ -79,8 +78,8 @@ body {
     }
     
     nav {
-      float: right;
       margin-top: 25px;
+      float: right;
     }
     
     nav a {
@@ -225,13 +224,18 @@ body {
         margin-left: 25px;
       }
       nav {
-        margin-right: 50px;
+        margin-right: 25px;
       }
       #logo {
         margin-left: 25px;
       }
       h1 {
         margin-top: -10px;
+      }
+      
+      #main-container {
+        width: 900px;
+        margin-left: 25px;
       }
       
     }
@@ -247,29 +251,41 @@ body {
       height:50%;
       margin-bottom: 20px;
     }
+
     @media screen and (max-width:640px) {
+      
+      //* Didn't know how to add margin on right side of content*//
       body {
-        width: 600px;
-        margin-right: 10px;
+        width:100%;
       }
 
+      #logo {
+        width: 100%;
+        text-align: center;
+        margin-left: -5px;
+      }
+      nav { 
+        text-align: center;
+        float:center;
+        width: 100%;
+      }
+      section.main-section {
+        width: 100%;
+        margin-top:50px;
+        margin-bottom: 100px;
+        margin-left: -15px;
+      }
       .responsive {
-        width: 50%;
-        max-width: 250px;
-        height:auto;
+        width: 100%;
         margin-bottom: 20px;
-        float: left;
       }
 
       h1 {
-        margin-top: -10px;
+        margin-top: 10px;
+        width:100%;
       }
-
-      nav {
-        display: flex;
-        flex-wrap: wrap;
+       
+      footer {
+        width: 100%;
       }
-
-      }
-      
     }

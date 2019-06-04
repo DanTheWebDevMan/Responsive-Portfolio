@@ -241,10 +241,10 @@ body {
     }
 
     @media screen and (max-width:768px) {
-      #main-container {
-        width: 100%;
-        margin-right: 25px;
-    }
+    #main-container {
+      width: 100%;
+      margin-right: 25px;
+      }
 
     .responsive {
       width: 50%;
@@ -256,8 +256,16 @@ body {
       width: 45%;
     }
 
+    nav {
+      width: 50%;
+    }
+
     @media screen and (max-width:640px) {
-      
+      #masthead {
+        position: static;
+        margin-bottom: -150px;
+      }
+
       body {
         width:100%;
       }
@@ -291,6 +299,11 @@ body {
       .work {
         width: 100%;
       }
+
+      #main-container {
+        width: 95%;
+      }
+
       footer {
         width: 100%;
       }

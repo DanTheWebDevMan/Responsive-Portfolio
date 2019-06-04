@@ -252,9 +252,12 @@ body {
       margin-bottom: 20px;
     }
 
+    .work {
+      width: 45%;
+    }
+
     @media screen and (max-width:640px) {
       
-      //* Didn't know how to add margin on right side of content*//
       body {
         width:100%;
       }
@@ -284,7 +287,10 @@ body {
         margin-top: 10px;
         width:100%;
       }
-       
+
+      .work {
+        width: 100%;
+      }
       footer {
         width: 100%;
       }

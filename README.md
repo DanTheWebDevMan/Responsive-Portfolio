@@ -1,5 +1,5 @@
 # Responsive-Porfolio
 
-Responsive Portfolio showing my howework and projects all on one page.
+Mobile-Responsive Portfolio showing several homeworks and projects.
 
 https://dannielzelaya.github.io/Responsive-Portfolio/index.html

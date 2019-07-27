@@ -341,7 +341,6 @@ input[type=submit] {
 
   h3 {
     display: inline-block;
-
   }
 
   h1 {
@@ -356,7 +355,8 @@ input[type=submit] {
   footer {
     width: 100%;
   }
-  div.work {
-    display: inline-block;
-  }
+
+div.LI-profile-badge {
+  float:left;
+  opacity: none;
 }

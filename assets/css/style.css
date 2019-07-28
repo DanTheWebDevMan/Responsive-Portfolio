@@ -193,20 +193,19 @@ h3, h2 {
 span#col1 {
   float: left;
   width: 30%;
-  margin-left: -25px;
-  
+  margin-right: 25px;
 }
 
 span#col2 {
-  float: right;
+  float: left;
   width: 30%;
-  margin-left: -25px;
+  margin-right: 25px;
 }
 
 span#col3 {
- float: right;
+ float: left;
  width: 30%;
- margin-left: -25px;
+ margin-right: 25px;
 }
 
 

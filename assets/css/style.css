@@ -12,7 +12,6 @@ body {
 
 ul { 
   display: inline-block; 
-  
 }
 
 * {
@@ -191,43 +190,26 @@ h3, h2 {
 
 /* contact page */
 
-#contact-form ul {
-  margin-bottom: 20px;
+span#col1 {
+  float: left;
+  width: 30%;
+  margin-left: -25px;
+  
 }
 
-#contact-form li {
-  margin-bottom: 10px;
+span#col2 {
+  float: right;
+  width: 30%;
+  margin-left: -25px;
 }
 
-label,
-input[type=text],
-input[type=email],
-textarea {
-  display: block;
-  width: 100%;
+span#col3 {
+ float: right;
+ width: 30%;
+ margin-left: -25px;
 }
 
-input[type=text],
-input[type=email],
-textarea {
-  height: 35px;
-  padding: 0 10px;
-  font-size: 14px;
-  border: 1px solid #dddddd;
-}
 
-textarea {
-  height: 200px;
-}
-
-input[type=submit] {
-  padding: 10px 30px;
-  font-size: 18px;
-  color: #ffffff;
-  cursor: pointer;
-  background: #4aaaa5;
-  border: 0 none;
-}
 
 /* Media Queries */
 
@@ -237,6 +219,7 @@ input[type=submit] {
     margin-left: 25px;
     text-align: center;
   }
+
   nav {
     margin-right: 25px;
   }
@@ -250,7 +233,6 @@ input[type=submit] {
   #main-container {
     width: 900px;
     margin-left: 25px;
-    
   }
 
   div.work{
@@ -260,7 +242,6 @@ input[type=submit] {
   footer {
     width:auto;
   }
-
 }
 
 @media screen and (max-width:768px) {
@@ -298,7 +279,7 @@ input[type=submit] {
   nav {
     width: 50%;
   }
-
+}
 
 @media screen and (max-width:640px) {
   #masthead {
@@ -355,8 +336,5 @@ input[type=submit] {
   footer {
     width: 100%;
   }
-
-div.LI-profile-badge {
-  float:left;
-  opacity: none;
 }
+
